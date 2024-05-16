@@ -42,7 +42,7 @@ final class ScheduleViewController: DayViewController, EKEventEditViewDelegate {
             navigationBar.scrollEdgeAppearance = appearance
         }
         
-        view.addSubview(setupSummaryLabels)
+        setupSummaryLabels()
     }
 
     override func viewWillAppear(_ animated: Bool) {
